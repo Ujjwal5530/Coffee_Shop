@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_navigation"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.malhotra.coffeeshop.fragments.HomeFragment"
+        android:label="Coffee Shop"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_menuFragment"
+            app:destination="@id/menuFragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_homeFragment_to_descriptionFragment"
+            app:destination="@id/descriptionFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.malhotra.coffeeshop.fragments.MenuFragment"
+        android:label="Menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_descriptionFragment"
+            app:destination="@id/descriptionFragment" />
+        <argument
+            android:name="menu"
+            app:argType="com.malhotra.coffeeshop.modelclass.CategoryList" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/descriptionFragment"
+        android:name="com.malhotra.coffeeshop.fragments.DescriptionFragment"
+        android:label="Menu"
+        tools:layout="@layout/fragment_description" >
+        <argument
+            android:name="menu"
+            app:argType="com.malhotra.coffeeshop.modelclass.MenuItems" />
+    </fragment>
+
+</navigation>

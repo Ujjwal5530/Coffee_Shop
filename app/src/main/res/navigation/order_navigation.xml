@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/order_navigation"
+    app:startDestination="@id/order">
+
+    <fragment
+        android:id="@+id/order"
+        android:name="com.malhotra.coffeeshop.fragments.OrderFragment"
+        android:label="Order History"
+        tools:layout="@layout/fragment_order" >
+        <action
+            android:id="@+id/action_order_to_summaryFragment"
+            app:destination="@id/summaryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/summaryFragment"
+        android:name="com.malhotra.coffeeshop.fragments.SummaryFragment"
+        android:label="Order Summary" >
+        <argument
+            android:name="summary"
+            app:argType="com.malhotra.coffeeshop.modelclass.HistoryList" />
+        <action
+            android:id="@+id/action_summaryFragment_to_order"
+            app:destination="@id/order"
+            app:popUpTo="@id/order"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>

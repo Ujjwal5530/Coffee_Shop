@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Coffee Shop</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="coffee_shop">Coffee Shop</string>
+    <string name="order_drink">Welcome to Coffee Shop</string>
+    <string name="des_price">$</string>
+
+
+    <string name="hot_latte">Hot Latte is a concoction of hard brewed espresso with sweetened milk and milk foam to top it up</string>
+    <string name="mocha_latte">A Mocha Latte is simply a coffee latte with the addition of chocolate. The flavors of the coffee and chocolate meld almost seamlessly</string>
+    <string name="pumpkin_spice_latte">A Pumpkin spice latte contains 2% milk, two shots of espresso, four pumps of pumpkin spice sauce and whipped cream on top</string>
+    <string name="vanilla_latte">A Vanilla latte is a beverage made with ⅓ espresso and 2/3 steamed milk, with a little bit of fine foam and the addition of vanilla syrup</string>
+    <string name="caramel_latte">A Caramel Latte is made by mixing espresso with caramel syrup and pouring steamed milk on top</string>
+    <string name="coffee_mocha">Coffee Mocha is a shot of espresso combined with a chocolate powder or syrup, followed by milk or cream</string>
+    <string name="hot_chocolate">Hot chocolate is a thick beverage made of melted, solid chocolate blended with milk, cream, or water</string>
+    <string name="french_vanilla">French Vanilla Coffee is created from our own unique blend of 100% Arabic beans and a hint of French Vanilla sweetness</string>
+    <string name="steeped_tea">Steeping a tea bag is the process of extracting the bioactive compounds and flavor from tea solids</string>
+    <string name="white_hot_chocolate">White Hot Chocolate is made using white chocolate mocha sauce, 2% milk and foam and topped with whipped cream</string>
+    <string name="lemonade">Lemonade is a sweetened beverage made from lemons, sugar, and water</string>
+    <string name="iced_caramel_latte">A Iced Caramel Latte is a sweetened beverage made from coffee, caramel sauce (or salted caramel), milk of your choice, and ice</string>
+    <string name="hazelnut_cold_brew">A Hazelnut Cold Brew is prepared by steeping roasted, ground, 100% Arabia coffee beans in filtered cool water, this delightful cold brew has a hint of hazelnut flavour</string>
+    <string name="pumpkin_spice_iced">Pumpkin spice Iced lattes consist of espresso, milk, pumpkin puree, pumpkin pie spice, sweetener, vanilla extract, and ice</string>
+    <string name="peach_quencher">A Peach Quencher is blend with peaches pineapple juice and lemonade concentrate top with club soda</string>
+    <string name="vanilla_cold_brew">Vanilla Cold Brew coffee accented with vanilla and topped with a delicate float of house-made vanilla sweet cream that cascades throughout the cup</string>
+    <string name="creamy_maple">Soft yeast-filled donut dipped in maple fondant with rich venetian cream filling</string>
+    <string name="boston_cream">Boston Cream Donut is made with homemade doughnuts filled with a smooth vanilla pastry cream filling and topped with a rich chocolate glaze</string>
+    <string name="vanilla_dip">A Vanilla filling topped with a drizzle of chocolate syrup and a dusting of white donut sugar</string>
+    <string name="canadian_maple">a Mix of maple, brown sugar, and whole wheat flour, dipped in a sweet brown butter glaze flavored with real maple syrup and vanilla</string>
+    <string name="honey_dip">A super simple yeasted sweet dough made with a mix of flour, eggs, milk, yeast, salt, and lightly sweetened with honey</string>
+    <string name="plain_bagel">Plain bagel is more than a baked ring of dough, crisp on the outside, chewy on the inside, slightly sweet, somewhat salty, undeniably pristine</string>
+    <string name="four_cheese_bagel">Four Cheese Bagel made with a blend of real cheddar, mozzarella, asiago, and parmesan, for a delicious meal full of cheesy flavour</string>
+    <string name="grain_bagel">12 Grain Bagels make a delicious snack or meal any time of day. Made with whole grain whole-wheat flour including the sunflower seeds and poppy seeds</string>
+    <string name="everything_bagel">The bagel underneath the everything topping is just a plain bagel, transformed by the addition of a spice mix right before baked</string>
+    <string name="jalapeno_bagel">Jalapeno Bagel is prepared when powdered or crushed jalapeno peppers are used to flavour cream cheese slabs or spreads</string>
+    <string name="blueberry_muffin">Blueberry Muffin is a variation of the plain muffin and is made from fresh or frozen blueberries, flour, baking powder, milk, egg, butter, sugar, salt and seasonings</string>
+    <string name="walnut_muffin">Walnut muffins are made from scratch with simple ingredients. These muffins are soft, moist, and filled with cinnamon and walnuts</string>
+    <string name="chocolate_muffin">Chocolate muffins are a type of baked good built around one or several varieties of chocolate. These are usually sweet rather than savory</string>
+    <string name="fruit_muffin">Fruit muffins are moist, tender, and buttery with lots of fresh fruit inside to balance out the sweetness of the muffin</string>
+
+    <string name="total_cart_items">Total cart items : %s </string>
+    <string name="quantity">Quantity : %s</string>
+    <string name="hi_name">Hi %s</string>
+    <string name="total_order_items">Total Order Items : %s</string>
+
+</resources>

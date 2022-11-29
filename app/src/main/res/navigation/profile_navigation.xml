@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile_navigation"
+    app:startDestination="@id/profile">
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.malhotra.coffeeshop.fragments.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profile_to_editFragment"
+            app:destination="@id/editFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="com.malhotra.coffeeshop.fragments.EditFragment"
+        android:label="Edit Account" >
+        <argument
+            android:name="profile"
+            app:argType="com.malhotra.coffeeshop.modelclass.ProfileInfo" />
+        <action
+            android:id="@+id/action_editFragment_to_profile"
+            app:destination="@id/profile"
+            app:popUpTo="@id/profile"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
