@@ -79,14 +79,13 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="12dp"
                 android:background="@drawable/find_bar"
-                android:padding="10dp"
-                android:hint="Find Category..."
-                android:textColorHint="@color/ic_logo_coffee_background"
-                android:textStyle="bold"
-                android:textSize="18sp"
                 android:fontFamily="@font/amaranth_italic"
+                android:hint="Find Category..."
+                android:padding="10dp"
                 android:paddingStart="20dp"
-                />
+                android:textColorHint="@color/ic_logo_coffee_background"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"

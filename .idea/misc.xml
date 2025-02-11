@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
@@ -41,10 +40,11 @@
         <entry key="..\:/Users/ujjwa/AndroidStudioProjects/CoffeeShop/app/src/main/res/menu/bottom_menu.xml" value="0.24635416666666668" />
         <entry key="..\:/Users/ujjwa/AndroidStudioProjects/CoffeeShop/app/src/main/res/menu/bottommenu.xml" value="0.24635416666666668" />
         <entry key="..\:/Users/ujjwa/AndroidStudioProjects/CoffeeShop/app/src/main/res/menu/search_menu.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/ujjwa/AndroidStudioProjects/CoffeeShop/app/src/main/res/mipmap-anydpi-v26/ic_logo_coffee_round.xml" value="0.1925" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="jbr-21" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
